@@ -5,35 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6a1d717-d54a-4e96-bad7-3e4c06112d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/code_coverage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/coverage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pull.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/helpers.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/iohelpers.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set1/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set1/sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set2/sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set3/empty_tags/sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set4/DE/admin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set4/DE/main.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set4/EN/admin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set4/EN/main.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set5/DE/main.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set5/EN/admin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/set5/EN/main.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/action.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/licenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sourcemap-register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iohelpers.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +31,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/git/security-advisories-action",
+    "last_opened_file_path": "E:/git/simple-typescript-github-actions-template",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "E:\\git\\empty-translation-tags-detection-action\\node_modules\\prettier",
-    "ts.external.directory.path": "E:\\git\\security-advisories-action\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "E:\\git\\simple-typescript-github-actions-template\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,6 +75,7 @@
       <workItem from="1683949636744" duration="1194000" />
       <workItem from="1684510051163" duration="651000" />
       <workItem from="1684548460863" duration="1269000" />
+      <workItem from="1684550040215" duration="268000" />
     </task>
     <servers />
   </component>
