@@ -1,0 +1,29 @@
+name: 'build main'
+on:
+  push:
+    branches:
+    - main
+    
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: use node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: build
+        run: yarn run all
+      - run: mkdir -p ./dist
+      - name: commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'x'
+          author_email: x
+          message: 'Auto update of ncc build artifact'
+          add: "['./dist/*']"

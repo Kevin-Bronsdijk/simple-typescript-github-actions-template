@@ -1,0 +1,15 @@
+name: ''
+description: ''
+inputs:
+  x:
+    description: ''
+    required: true
+outputs:
+  y:
+    description: ''
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: ''
+  color: ''
